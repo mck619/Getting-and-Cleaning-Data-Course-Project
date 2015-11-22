@@ -18,19 +18,19 @@ tBodyAcc-XYZ
 tGravityAcc-XYZ  
 tBodyAccJerk-XYZ  
 tBodyGyro-XYZ  
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are: 
 
@@ -65,74 +65,74 @@ After selecting only the above mentioned variables from the raw data set, we are
 
 The data was then divided up by Subject. The mean of each of the 66 variables was then calculated for each activity preformed by the subject. These means are the variables provided in the data set. They are named as follows:
 
-"SubjectID"
-"Activity"
-"mean of tBodyAcc-mean()-X"
-"mean of tBodyAcc-mean()-Y"
-"mean of tBodyAcc-mean()-Z"
-"mean of tGravityAcc-mean()-X"
-"mean of tGravityAcc-mean()-Y"
-"mean of tGravityAcc-mean()-Z"
-"mean of tBodyAccJerk-mean()-X"
-"mean of tBodyAccJerk-mean()-Y"
-"mean of tBodyAccJerk-mean()-Z"
-"mean of tBodyGyro-mean()-X"
-"mean of tBodyGyro-mean()-Y"
-"mean of tBodyGyro-mean()-Z"
-"mean of tBodyGyroJerk-mean()-X"
-"mean of tBodyGyroJerk-mean()-Y"
-"mean of tBodyGyroJerk-mean()-Z"
-"mean of tBodyAccMag-mean()"
-"mean of tGravityAccMag-mean()"
-"mean of tBodyAccJerkMag-mean()"
-"mean of tBodyGyroMag-mean()"
-"mean of tBodyGyroJerkMag-mean()"
-"mean of fBodyAcc-mean()-X"
-"mean of fBodyAcc-mean()-Y"
-"mean of fBodyAcc-mean()-Z"
-"mean of fBodyAccJerk-mean()-X"
-"mean of fBodyAccJerk-mean()-Y"
-"mean of fBodyAccJerk-mean()-Z"
-"mean of fBodyGyro-mean()-X"
-"mean of fBodyGyro-mean()-Y"
-"mean of fBodyGyro-mean()-Z"
-"mean of fBodyAccMag-mean()"
-"mean of fBodyBodyAccJerkMag-mean()"
-"mean of fBodyBodyGyroMag-mean()"
-"mean of fBodyBodyGyroJerkMag-mean()"
-"mean of tBodyAcc-std()-X"
-"mean of tBodyAcc-std()-Y"
-"mean of tBodyAcc-std()-Z"
-"mean of tGravityAcc-std()-X"
-"mean of tGravityAcc-std()-Y"
-"mean of tGravityAcc-std()-Z"
-"mean of tBodyAccJerk-std()-X"
-"mean of tBodyAccJerk-std()-Y"
-"mean of tBodyAccJerk-std()-Z"
-"mean of tBodyGyro-std()-X"
-"mean of tBodyGyro-std()-Y"
-"mean of tBodyGyro-std()-Z"
-"mean of tBodyGyroJerk-std()-X"
-"mean of tBodyGyroJerk-std()-Y"
-"mean of tBodyGyroJerk-std()-Z"
-"mean of tBodyAccMag-std()"
-"mean of tGravityAccMag-std()"
-"mean of tBodyAccJerkMag-std()"
-"mean of tBodyGyroMag-std()"
-"mean of tBodyGyroJerkMag-std()"
-"mean of fBodyAcc-std()-X"
-"mean of fBodyAcc-std()-Y"
-"mean of fBodyAcc-std()-Z"
-"mean of fBodyAccJerk-std()-X"
-"mean of fBodyAccJerk-std()-Y"
-"mean of fBodyAccJerk-std()-Z"
-"mean of fBodyGyro-std()-X"
-"mean of fBodyGyro-std()-Y"
-"mean of fBodyGyro-std()-Z"
-"mean of fBodyAccMag-std()"
-"mean of fBodyBodyAccJerkMag-std()"
-"mean of fBodyBodyGyroMag-std()"
-"mean of fBodyBodyGyroJerkMag-std()"
+"SubjectID"  
+"Activity"  
+"mean of tBodyAcc-mean()-X"  
+"mean of tBodyAcc-mean()-Y"  
+"mean of tBodyAcc-mean()-Z"  
+"mean of tGravityAcc-mean()-X"  
+"mean of tGravityAcc-mean()-Y"  
+"mean of tGravityAcc-mean()-Z"  
+"mean of tBodyAccJerk-mean()-X"  
+"mean of tBodyAccJerk-mean()-Y"  
+"mean of tBodyAccJerk-mean()-Z"  
+"mean of tBodyGyro-mean()-X"  
+"mean of tBodyGyro-mean()-Y"  
+"mean of tBodyGyro-mean()-Z"  
+"mean of tBodyGyroJerk-mean()-X"  
+"mean of tBodyGyroJerk-mean()-Y"  
+"mean of tBodyGyroJerk-mean()-Z"  
+"mean of tBodyAccMag-mean()"  
+"mean of tGravityAccMag-mean()"  
+"mean of tBodyAccJerkMag-mean()"  
+"mean of tBodyGyroMag-mean()"  
+"mean of tBodyGyroJerkMag-mean()"  
+"mean of fBodyAcc-mean()-X"  
+"mean of fBodyAcc-mean()-Y"  
+"mean of fBodyAcc-mean()-Z"  
+"mean of fBodyAccJerk-mean()-X"  
+"mean of fBodyAccJerk-mean()-Y"  
+"mean of fBodyAccJerk-mean()-Z"  
+"mean of fBodyGyro-mean()-X"  
+"mean of fBodyGyro-mean()-Y"  
+"mean of fBodyGyro-mean()-Z"  
+"mean of fBodyAccMag-mean()"  
+"mean of fBodyBodyAccJerkMag-mean()"  
+"mean of fBodyBodyGyroMag-mean()"  
+"mean of fBodyBodyGyroJerkMag-mean()"  
+"mean of tBodyAcc-std()-X"  
+"mean of tBodyAcc-std()-Y"  
+"mean of tBodyAcc-std()-Z"  
+"mean of tGravityAcc-std()-X"  
+"mean of tGravityAcc-std()-Y"  
+"mean of tGravityAcc-std()-Z"  
+"mean of tBodyAccJerk-std()-X"  
+"mean of tBodyAccJerk-std()-Y"  
+"mean of tBodyAccJerk-std()-Z"  
+"mean of tBodyGyro-std()-X"  
+"mean of tBodyGyro-std()-Y"  
+"mean of tBodyGyro-std()-Z"  
+"mean of tBodyGyroJerk-std()-X"  
+"mean of tBodyGyroJerk-std()-Y"  
+"mean of tBodyGyroJerk-std()-Z"  
+"mean of tBodyAccMag-std()"  
+"mean of tGravityAccMag-std()"  
+"mean of tBodyAccJerkMag-std()"  
+"mean of tBodyGyroMag-std()"  
+"mean of tBodyGyroJerkMag-std()"  
+"mean of fBodyAcc-std()-X"  
+"mean of fBodyAcc-std()-Y"  
+"mean of fBodyAcc-std()-Z"  
+"mean of fBodyAccJerk-std()-X"  
+"mean of fBodyAccJerk-std()-Y"  
+"mean of fBodyAccJerk-std()-Z"  
+"mean of fBodyGyro-std()-X"  
+"mean of fBodyGyro-std()-Y"  
+"mean of fBodyGyro-std()-Z"  
+"mean of fBodyAccMag-std()"  
+"mean of fBodyBodyAccJerkMag-std()"  
+"mean of fBodyBodyGyroMag-std()"  
+"mean of fBodyBodyGyroJerkMag-std()"  
 
 
 
