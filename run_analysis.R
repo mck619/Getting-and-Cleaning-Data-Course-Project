@@ -51,4 +51,9 @@ ex4_data <- group_by(cleaned_up_data, SubjectID, Activity)
 #finding the means of each of the variables for each subject and activity
 tidy_data<-summarize_each(ex4_data,funs(mean))
 
+#changing the names of the tidy_data variables to reflect that they are means of the mean() and std() variables from the raw data set
+renaming_helper <- rep("mean of ", 66)
+new_names<- paste0(x,names(tidy_data)[3:68])
+names(tidy_data)[3:68]<-new_names
+
 write.table(tidy_data, file = "tidy_data.txt", row.names = FALSE)
