@@ -1,5 +1,5 @@
 	
-###Raw data variable information:
+##Raw data variable information:
 
 
 Feature Selection 
@@ -37,7 +37,7 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-###Unit specification:
+##Unit specification:
 The following information was provided with raw data concerning the units. I have no experience with physics so I don't know what else to include here
 
 acc variables: The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
@@ -46,11 +46,10 @@ gyro variables: The angular velocity vector measured by the gyroscope for each w
 
 jerk variables (info from wikipedia):In physics, jerk, also known as jolt, surge, or lurch, is the rate of change of acceleration; that is, the derivative of acceleration with respect to time, and as such the second derivative of velocity, or the third derivative of position.
 
-#Notes: 
+Notes: 
+Features are normalized and bounded within [-1,1].
 
-- Features are normalized and bounded within [-1,1].
-
-###Data Transformations:
+##Data Transformations:
 
 The activity number was transformed to the actual activity name based on the provided guide:
 
