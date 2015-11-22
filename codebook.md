@@ -47,7 +47,7 @@ gyro variables: The angular velocity vector measured by the gyroscope for each w
 jerk variables (info from wikipedia):In physics, jerk, also known as jolt, surge, or lurch, is the rate of change of acceleration; that is, the derivative of acceleration with respect to time, and as such the second derivative of velocity, or the third derivative of position.
 
 #Notes: 
-======
+
 - Features are normalized and bounded within [-1,1].
 
 ###Data Transformations:
